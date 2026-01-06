@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+
+#search-icons{
+    height: 40px;
+    width: 700px;
+    border-radius: 7px;
+}
+#icons{
+    background-color: rgb(241, 189, 77);
+    color: black;
+    width: 40px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.locations{
+    height: 40px;
+    width: 70px;
+    border-radius: 7px;
+}
+.cartsection{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+    
+}
+.cart{
+   background-color: rgb(190, 245, 228);
+   padding: 20px;
+   
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.cart h4{
+    margin-left: 90px;
+    color: blue;
+}
+
+
+.AdoutAS{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(22, 22, 105);
+    margin:20px;
+    padding: 40px;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid rgb(14, 1, 131);
+    
+    
+}
+.A{
+    margin-top: 0;
+    padding: 20px;   
+}
+
+.AdoutAS img{
+    display: block;
+    height: 50px;
+    width: 80px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+ol{
+    font-size: 18px;
+    
+}
+
+

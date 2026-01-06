@@ -1,0 +1,42 @@
+.animation{
+    height:400px ;
+    width: 400px;
+    background-color:red ;
+    color:white ;
+    animation-name: animate;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+@keyframes animate{
+    0%{
+        background-color: pink;
+        color: wheat;
+    }
+    20%{
+        background-color: green;
+        margin-left: 500px;
+    }
+    40%{
+        background-color: red;
+        margin-left: 0px;
+    }
+    60%{
+        background-color: yellow;
+        margin-left: 2px;
+    }
+    80%{
+        background-color: chocolate;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        rotate: 360deg;
+    }
+    100%{
+        background-color: purple;
+        height: 400px;
+        width: 400px;
+        border-radius: 0%;
+        rotate: 0;
+    }
+}
